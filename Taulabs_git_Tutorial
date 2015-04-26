@@ -1,0 +1,25 @@
+Cloning the forked repo: instructions from https://help.github.com/articles/fork-a-repo/
+
+#git clone https://github.com/totosolat/TauLabs.git
+
+#cd TauLabs/
+
+check your upstream:
+#git remote -v
+
+change upstream
+#git remote add upstream https://github.com/TauLabs/TauLabs.git
+
+check your upstream again, should be "https://github.com/TauLabs/TauLabs.git"
+#git remote -v
+
+--------------------------------------------
+sync with the upstream: instructions from https://help.github.com/articles/syncing-a-fork/
+
+#git fetch upstream
+
+#git checkout next
+
+#git merge upstream/next
+
+
